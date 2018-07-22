@@ -1,6 +1,9 @@
 import express from 'express';
+import authenticate from '../middlewares/authenticate';
+
 
 const router = express.Router();
+router.use(authenticate);
 
 router.get("/searchBooks", (req, res) => {
     res.json({
@@ -29,4 +32,4 @@ router.get("/searchBooks", (req, res) => {
         ]
     })
 });
-export default router
+export default router;
