@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "nodemon --exec babel-node -- src/index.js"
   },
-  "author": "Rem",
+  "author": "Noor",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
