@@ -27,7 +27,7 @@ $ npm -v
 3.  After installation process run
     `$ npm start`
     in your terminal to start the development server, the server will run on http://localhost:3000/, a Google Chrome page should pupup if not, you can open the local host link in a new tab.
-4.  Go to [Book Worm API](https://github.com/NoorSulaiman/book-worm) and follow the intallation steps.
+4.  Go to [Book Worm UI](https://github.com/NoorSulaiman/book-worm) and follow the intallation steps.
 
 ## Built With
 
